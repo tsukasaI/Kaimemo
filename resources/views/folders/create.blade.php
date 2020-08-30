@@ -20,6 +20,7 @@
                         @csrf
                         <div class="form-group">
                             <label for="title">フォルダ名</label>
+                            <p>（例）食料品、日用品、仕事で必要</p>
                             <input type="text" class="form-control" name="title" id="title" value="{{ old('title') }}" />
                         </div>
                         <div class="text-right">
