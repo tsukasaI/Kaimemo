@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col col-md-offset-3 col-md-6">
             <nav class="panel panel-default">
-                <div class="panel-heading">会員登録</div>
+                <div class="panel-heading">新規登録</div>
                 <div class="panel-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf

@@ -24,7 +24,7 @@
                 <label for="title">*フォルダ内のメモも削除されます。</label>
               </div>
               <div class="text-right">
-                <button type="submit" class="btn btn-primary">はい</button>
+                <button type="submit" class="btn btn-primary">削除</button>
               </div>
             </form>
           </div>
