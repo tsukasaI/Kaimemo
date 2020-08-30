@@ -25,9 +25,9 @@ class TaskController extends Controller
         $tasks = $folder->tasks()->get();
 
         return view('tasks/index', [
-            'folders' => $folders,
+            'folders'           => $folders,
             'current_folder_id' => $folder->id,
-            'tasks' => $tasks,
+            'tasks'             => $tasks,
         ]);
     }
 
@@ -52,8 +52,8 @@ class TaskController extends Controller
      */
     public function create(Folder $folder, CreateTask $request)
     {
-        $task = new Task();
-        $task->title = $request->title;
+        $task         = new Task();
+        $task->title  = $request->title;
         $task->status = $request->status;
 
         $folder->tasks()->save($task);
@@ -89,7 +89,7 @@ class TaskController extends Controller
     {
         $this->checkRelation($folder, $task);
         
-        $task->title = $request->title;
+        $task->title  = $request->title;
         $task->status = $request->status;
         $task->save();
 

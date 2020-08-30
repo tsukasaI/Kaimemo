@@ -18,7 +18,7 @@ class FolderController extends Controller
     public function create(CreateFolder $request)
     {
         //フォルダモデルのインスタンスからタイトルをデータベースに書き込む
-        $folder = new Folder();
+        $folder        = new Folder();
         $folder->title = $request->title;
 
         //usersに紐付ける

@@ -11,9 +11,9 @@ class Task extends Model
      * 状態の定義
      */
     const STATUS = [
-        1 => ['label' => 'すぐに必要', 'class' => 'label-danger'],
-        2 => ['label' => '見つけたら買う', 'class' => 'label-info'],
-        3 => ['label' => '安かったら買う', 'class' => ''],
+        1 => ['label' => 'すぐに必要'   , 'class' => 'label-danger'],
+        2 => ['label' => '見つけたら買う', 'class' => 'label-info'  ],
+        3 => ['label' => '安かったら買う', 'class' => ''            ],
     ];
 
     /**
