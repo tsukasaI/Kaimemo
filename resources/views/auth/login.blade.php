@@ -84,6 +84,7 @@
   <div class="row">
     <div class="col-md-6">
       <img src="{{ asset('image/enjoy.jpg') }}" alt="笑顔" class="img-responsive center-block w-100">
+      <br>
     </div>
     <div class="col-md-6">
       <p>
